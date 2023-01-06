@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- relier le fichier CSS au html -->
+  <link rel="stylesheet" href="./style.css">
+
+  
+    <title>Application raccourssiceur de lien</title>
+</head>
+<body>
+    <header>
+        <h1>📱Application📱 raccourcisseur📱 de lien📱</h1>
+        <p>🔒 mettre un lien valide , sinon cela ne fonctionnera pas 🔐 </p>
+    </header>
+    <section>
+        <main>
+            <p class="error_message"></p>
+            <input type="text" placeholder="🔑 lien à raccourcir🔑 " class="long_Link">
+            <button onclick="shortLinkFunct()">🔓 Raccourcir le lien 🔓 </button>
+            <div class="result">exemple.com</div>
+        </main>
+    </section>
+   
+
+
+
+<!-- relier le fichier javascript au html -->
+<script src="./script.js"></script>
+</body>
+
+</html>
